@@ -19,10 +19,34 @@ const UserList = () => {
         });
     }, []);
 
+    // count number of users
+    const countUsers = () => {
+        let count = 0;
+        users.forEach(user => {
+            count++;
+        });
+        return count;
+    }
+
+
+        if (countUsers() === 0) {
+            return (
+                <>
+                    <Typography variant="h3" component="h3" sx={{marginTop:'30px', color:"6da37c"}}>
+                USER LIST
+            </Typography>
+
+                    <Typography variant="h5" component="h5" sx={{marginTop:'30px', color:"red"}}>
+                No users found! Add one <a href="/new">here.</a>
+            </Typography>
+                </>
+            );
+        }
+        
 
     return (
             <>
-            <Typography variant="h3" component="h3" sx={{marginTop:'30px', color:"#6da37c"}}>
+            <Typography variant="h3" component="h3" sx={{marginTop:'30px', color:"6da37c"}}>
                 USER LIST
             </Typography>
 

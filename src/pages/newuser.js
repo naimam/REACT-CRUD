@@ -21,8 +21,8 @@ const NewUser = () => {
                         justifyContent: 'center',
                     }}
                 >
-                      <Typography variant="h3" component="h3" sx={{marginTop:'30px', marginBottom:'30px', color:"#6da37c"}}>
-                USER LIST
+                      <Typography variant="h3" component="h3" sx={{marginTop:'30px', marginBottom:'30px', color:"6da37c"}}>
+                ADD USER
             </Typography>
 
 

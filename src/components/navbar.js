@@ -19,7 +19,7 @@ const NavBar = function () {
        <>
         <Box sx={{ flexGrow: 1 }}>
 
-        <AppBar position="static" sx={{ bgcolor: "#6da37c" }}>
+        <AppBar position="static" sx={{ bgcolor: "6da37c" }}>
           <Toolbar>
             <IconButton
               size="large"

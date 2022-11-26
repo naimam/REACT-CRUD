@@ -1,25 +1,32 @@
 {
   "users": [
     {
-      "id": "1",
-      "fname": "Johny",
+      "fname": "Johnyyy",
       "lname": "Doe",
       "email": "john.doe@gmail.com",
-      "password": "12345"
+      "password": "123456",
+      "id": 1
+    },
+    {
+      "fname": "Jane",
+      "lname": "Doe",
+      "email": "jane.doe@gmail.com",
+      "password": "123",
+      "id": 2
     },
     {
       "fname": "Naima",
       "lname": "Mohamed",
-      "email": "naima.mohamed@capgemini.com",
-      "password": "123abc",
-      "id": "C0drqrB"
+      "email": "naima@gmail.com",
+      "password": "1234",
+      "id": 3
     },
     {
-      "fname": "Naima",
-      "lname": "2",
-      "email": "naima@gmail.com",
+      "fname": "Hello",
+      "lname": "World",
+      "email": "hello@gmail.com",
       "password": "123",
-      "id": "D5MJ8bf"
+      "id": 4
     }
   ]
 }

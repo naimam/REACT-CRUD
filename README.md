@@ -22,6 +22,9 @@ Starts the JSON server at [http://localhost:8000](http://localhost:8000)
 The JSON server can be started with `json-server --watch ./src/database/users.json --port 8000` command too.
 
 
+### `npm install`
+
+
 
 
 ### `npm test`
